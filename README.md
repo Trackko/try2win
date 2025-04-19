@@ -107,4 +107,4 @@ Feel free to:
 This bot is for educational and testing purposes only. Use at your own risk. Always verify transactions before confirming them.
 
 ---
-Made with ❤️ for the Somnia community
+Made with ❤️ By TRACKKO
