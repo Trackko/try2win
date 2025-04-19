@@ -26,7 +26,7 @@ This repository contains an advanced automation bot for interacting with the Som
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/Trackko/try2win/Somnia-Testnet-Automation.git
+git clone https://github.com/Trackko/try2win
 cd Somnia-Testnet-Automation
 ```
 
