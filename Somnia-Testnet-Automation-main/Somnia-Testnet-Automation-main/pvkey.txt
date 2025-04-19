@@ -1,2 +1,12 @@
-privateKey1
-privateKey2
+import json
+
+# Load the wallets.json file
+with open('wallets.json', 'r') as f:
+    wallets = json.load(f)
+
+# Open pvkey.txt for writing
+with open('pvkey.txt', 'w') as f:
+    for wallet in wallets:
+        private_key = wallet.get('private_key')
+        if private_key:
+            f.write(f"{private_key}\n")
