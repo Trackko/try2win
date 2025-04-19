@@ -1,1 +1,12 @@
-Sends transactions on Somnia Testnet, either to random addresses
+import json
+
+# Load the wallets.json file
+with open('wallets.json', 'r') as f:
+    wallets = json.load(f)
+
+# Open addressFaucet.txt for writing
+with open('somnia-scripts/addressFaucet.txt', 'w') as f:
+    for wallet in wallets:
+        address = wallet.get('address')
+        if address:
+            f.write(f"{address}\n")
